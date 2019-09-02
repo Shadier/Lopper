@@ -34,6 +34,9 @@ body{
 
 .cabecera{
 	top: 0px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
 	z-index: 2000;
 	padding: var(--margenAB) var(--margenID);
 	background-color: white;
@@ -560,6 +563,10 @@ h3{
 		-webkit-animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 		        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 	}
+
+	.sitemap-icons figure{
+		margin-bottom: 16px !important;
+	}
 /**/
 
 
@@ -612,10 +619,7 @@ h3{
 	            transform: translate3d(4px, 0, 0);
 	  }
 	}
-<<<<<<< 02869025cf394e54fcc1fdecb306cc43576c8f00
-/**/
-=======
-/**/
+
 
 
 
@@ -702,9 +706,6 @@ h3{
 	.sitemap-icons{
 		max-width: 150px;
 	}
-	.sitemap-icons figure{
-		margin-bottom: 16px;
-	}
 }
 
 @media only screen and (max-width: 794px) {
@@ -776,4 +777,3 @@ h3{
 		margin-left: -20px;
 	}
 }
->>>>>>> Eliminar archivos innecesarios
